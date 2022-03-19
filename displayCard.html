@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav>
-        <img src="/assets/logo.svg" alt="logo" />
+        <img src="./assets/logo.svg" alt="logo" />
         <ul>
             <li> <a href="/displayCard.html">My Blogs</a></li>
             <li> <a href="/displayCard.html">Login</a></li>
@@ -27,22 +27,22 @@
                     <!-- <p id="blog-description">da</p> -->
                     <!-- <p>Posted on</p> -->
                 </div>
-                  <!-- <div class="card-buttons">
+                <!-- <div class="card-buttons">
                     <a><button type="button" id="edit">EDIT</button></a> <span>|</span><a ><button id="delete">DELETE</button></a>
                 </div> -->
         </div>
     </div>
     <div id="popupContact">
-        <button id="close"> <img id="close" src="./assets/close-button.svg"></button>
-        <img id="rect" src=./assets/rect.svg>
+        <button id="close"> <img id="close" src="./assets/close-button.svg" alt=""></button>
+        <img id="rect" src=./assets/rect.svg alt="">
         <h2>Your Post</h2>
         <div id="card" >
             <input type="hidden" name="blogId" value="" /> 
-            <input id="title" name="title" value="" placeholder="Title" type="text"/>
+            <input id="title" name="title" value="" placeholder="Title" type="text" aria-label=""/>
             <textarea id="detail" name="message" placeholder="Description" value=""></textarea>
-            <button id="post" type="submit" >POST</button>
+            <button id="post" type="submit">POST</button>
         </div>
     </div>
 </body>
-<script src="/script.js"></script>
+<script src="./script.js"></script>
 </html>
